@@ -1,0 +1,17 @@
+name:
+  chocolateorange
+
+url:
+  http://www.sasaplus1.com
+timezone:
+  Asia/Tokyo
+
+gems:
+  - jekyll-sitemap
+
+exclude:
+  - vendor
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - README.md

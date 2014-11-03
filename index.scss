@@ -36,21 +36,27 @@ a:hover {
 	transition: color 0.1s ease-out 0;
 }
 
-.header-area {
-	.site-title {
-		color: #aaaaff;
-		font-family: Verdana, sans-serif;
-		font-weight: bold;
-		letter-spacing: 0.05em;
-		margin-top: 50px;
-		text-align: center;
-		text-shadow: 0 1px 0 #ffffff;
+.header-area .site-title {
+	color: #aaaaff;
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	margin-top: 50px;
+	text-align: center;
+	text-shadow: 0 1px 0 #ffffff;
+
+	@media only screen and (max-width: 500px - 1px) {
+		margin: 10px 0 0 0;
 	}
 }
 
 .link-area {
 	margin: 50px auto;
 	width: 491px;
+
+	@media only screen and (max-width: 500px - 1px) {
+		width: 311px;
+	}
 }
 
 .link-list {
@@ -59,6 +65,10 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	table-layout: fixed;
+
+	@media only screen and (max-width: 500px - 1px) {
+		border-spacing: 10px;
+	}
 }
 
 .link-list .link-item {
@@ -77,6 +87,12 @@ a:hover {
 		-webkit-transition: all 0.1s ease-in;
 		-moz-transition: all 0.1s ease-in;
 		transition: all 0.1s ease-in;
+
+		@media only screen and (max-width: 500px - 1px) {
+			font-size: 80px;
+			width: 80px;
+			height: 80px;
+		}
 	}
 
 	a:hover {
@@ -100,12 +116,21 @@ a:hover {
 .info-area {
 	margin: 0 auto 50px auto;
 	width: 800px;
+
+	@media only screen and (max-width: 800px - 1px) {
+		width: auto;
+	}
 }
 
 .info-area .info-column {
 	float: left;
 	margin: 0 20px;
 	width: 226px;
+
+	@media only screen and (max-width: 800px - 1px) {
+		float: none;
+		margin: 0 auto;
+	}
 
 	.info-title {
 		border-bottom: 3px double #eeddff;

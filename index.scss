@@ -46,6 +46,7 @@ a:hover {
 	text-shadow: 0 1px 0 #ffffff;
 
 	@media only screen and (max-width: 500px - 1px) {
+		font-size: 200%;
 		margin: 10px 0 0 0;
 	}
 }
@@ -141,6 +142,7 @@ a:hover {
 
 	.info-item {
 		color: #9999ff;
+		line-height: 150%;
 	}
 }
 

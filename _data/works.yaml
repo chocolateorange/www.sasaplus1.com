@@ -1,0 +1,39 @@
+- title: minify image
+  uri: null
+  repository: https://github.com/tsukurite/minify-image
+  description: |
+    Electron上で動作する簡易な画像圧縮アプリケーションです。
+    UIにはReact.jsを、画像圧縮にはimageminを使用しています。
+
+- title: pageinfo
+  uri: https://chrome.google.com/webstore/detail/pageinfo/eacbbelnaepnlkbpenfekbgjlbpkifkd
+  repository: null
+  description: |
+    表示しているページの情報を表示するGoogle Chrome拡張です。
+    そのページのURLをQRコードにして表示したり、metaタグの内容などを表示できます。
+
+- title: Qiita organizations graph
+  uri: http://sasaplus1.github.io/qiita-organizations-graph
+  repository: https://github.com/sasaplus1/qiita-organizations-graph
+  description: |
+    QiitaのOrganization一覧のページをスクレイピングして、ストック数と投稿数をグラフに表示するページです。
+    Vue.js, lodash, C3.jsを使用しています。
+
+- title: conditional comment generator
+  uri: http://sasaplus1.github.io/conditional-comment-generator
+  repository: https://github.com/sasaplus1/conditional-comment-generator
+  description: |
+    Internet Explorerの条件分岐コメントを生成するページです。
+    Knockout.jsを使用しているのでページのデザインは崩れますがInternet Explorerでも動作します。
+
+- title: mktemp
+  uri: https://www.npmjs.com/package/mktemp
+  repository: https://github.com/sasaplus1/mktemp
+  description: |
+    ランダムな名前のファイルまたはディレクトリを生成するnode.jsのモジュールです。
+
+- title: deepcopy.js
+  uri: https://www.npmjs.com/package/deepcopy
+  repository: https://github.com/sasaplus1/deepcopy.js
+  description: |
+    渡された引数をディープコピーしたものを返すJavaScript/node.jsのモジュールです。

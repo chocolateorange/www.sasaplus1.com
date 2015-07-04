@@ -115,7 +115,8 @@ a:hover {
 	}
 }
 
-.info-area {
+.info-area,
+.works-area {
 	margin: 0 auto 50px auto;
 	width: 800px;
 
@@ -143,6 +144,33 @@ a:hover {
 	.info-item {
 		color: #9999ff;
 		line-height: 150%;
+	}
+}
+
+.works-area {
+	@media only screen and (max-width: 800px - 1px) {
+		width: 80%;
+	}
+
+	.title {
+		border-bottom: 3px double #eeddff;
+		color: #9999ff;
+		font-size: 100%;
+	}
+
+	.works-list-area {
+		margin: 0 auto;
+		width: 90%;
+		word-wrap: break-word;
+	}
+
+	.works-list {
+		color: #333333;
+		margin-top: 50px;
+	}
+
+	.works-title {
+		color: #9999ff;
 	}
 }
 

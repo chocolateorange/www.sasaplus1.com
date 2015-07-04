@@ -78,6 +78,24 @@
             </ul>
           </div>
         </div>
+        <div class="works-area">
+          <h2 class="title">works</h2>
+          <p>作ったものや関わったものなど。</p>
+          <div class="works-list-area">
+            {% for work in site.data.works %}
+            <dl class="works-list">
+              <dt class="works-title">{{ work.title }}</dt>
+              {% if work.uri != null %}
+              <dd><a href="{{ work.uri }}">{{ work.uri }}</a></dd>
+              {% endif %}
+              {% if work.repository != null %}
+              <dd><a href="{{ work.repository }}">repository</a></dd>
+              {% endif %}
+              <dd>{{ work.description }}</dd>
+            </dl>
+            {% endfor %}
+          </div>
+        </div>
       </main>
     </section>
     <footer class="footer-area">

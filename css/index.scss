@@ -1,0 +1,69 @@
+---
+---
+@import "common";
+@import "header";
+@import "footer";
+
+.main.index {
+	margin: 0;
+
+	.index__inner {
+	}
+
+	.index__links.links {
+		margin: 0 auto;
+		width: 350px;
+
+		@include more-narrow-width {
+			width: 260px;
+		}
+
+
+		.links__list.list {
+			margin: 0;
+			padding: 0;
+
+			.list__item {
+				display: inline-block;
+				margin-right: 20px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+			.list__link {
+			}
+			.list__text {
+				display: inline-block;
+				font-size: 100px;
+				text-align: center;
+				vertical-align: middle;
+				width: 100px;
+				-webkit-transition:
+					font-size 0.1s ease-in,
+					width 0.1s ease-in;
+				-moz-transition:
+					font-size 0.1s ease-in,
+					width 0.1s ease-in;
+				transition:
+					font-size 0.1s ease-in,
+					width 0.1s ease-in;
+
+				@include more-narrow-width {
+					font-size: 70px;
+					width: 70px;
+				}
+
+				&.list__twitter {
+					color: #55acee;
+				}
+				&.list__github {
+					color: #000000;
+				}
+				&.list__notes {
+					color: #aaaaff;
+				}
+			}
+		}
+	}
+}

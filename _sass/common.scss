@@ -1,0 +1,30 @@
+body {
+	font-family:
+		"MigMix 1p", "migmix-1p",
+		"ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro",
+		"メイリオ", Meiryo,
+		sans-serif;
+	margin: 0;
+}
+
+main {
+	display: block;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+@mixin narrow-width {
+	@media only screen and (max-width: 800px - 1px) {
+		@content;
+	}
+}
+
+@mixin more-narrow-width {
+	@media only screen and (max-width: 500px - 1px) {
+		@content;
+	}
+}
